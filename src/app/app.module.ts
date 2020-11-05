@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { GoalComponent } from './goal/goal.component';
 import { GoalDetailComponent } from './goal-detail/goal-detail.component';
 import { DateCountPipe } from './date-count.pipe';
+import { AboutComponent } from './about/about.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GoalComponent,
     GoalDetailComponent,
-    DateCountPipe
+    DateCountPipe,
+    AboutComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
